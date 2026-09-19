@@ -4,7 +4,7 @@
 > **Disclaimer:** Based on official documentation, upgraded and polished with assistance from Google Gemini. Provided **as-is**: may contain bugs, rough edges, and plot holes — I'm just a hobbyist, not a professional programmer.
 
 
-Official macOS builds for Psi / Psi+ haven't been updated in a while and were built strictly for the legacy `x86_64` architecture. Modern Macs running on Apple Silicon (M1/M2/M3/M4) either execute them through Rosetta 2 translation or fail to launch entirely since 27 release.
+Official macOS builds for Psi / Psi+ haven't been updated in a while and were built strictly for the legacy `x86_64` architecture. Modern Macs running on Apple Silicon (M1/M2/M3/M4) either execute them through Rosetta 2 translation or fail to launch entirely since 28 release.
 
 I have successfully compiled, packaged, and verified a native **`arm64` (Apple Silicon)** application bundle of **Psi+** on modern macOS (tested on Mac mini M4 and macOS 26.6.1). The client runs smoothly, plugins (only used by me, not all of them) load correctly, translations function as expected, and system-wide macOS media playback syncs seamlessly via XMPP PEP User Tune.
 
